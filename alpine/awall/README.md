@@ -1,7 +1,7 @@
 
 # One-click installation of Awall on Alpine linux
 
-## Installtion and configuration of firewall
+## Installation and configuration of firewall
 
 Run the <em>**install_awall.sh**</em> on your Alpine linux. It will 
 

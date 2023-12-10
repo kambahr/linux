@@ -1,3 +1,4 @@
+
 # References
 # Siegel, Zac. "Configuring Awall on Alpine Linux." 13 Jan. 2022. www.zsiegel.com/2022/01/13/configuring-alpine-linux-firewall-with-docker. Accessed 5 Feb 2023.
 # Alpine Linux. "How-To Alpine Wall."  23 Jul. 2021. wiki.alpinelinux.org/wiki/How-To_Alpine_Wall. Accessed 5 Feb 2023.
@@ -183,7 +184,7 @@ rc-service ip6tables save
 awall activate -f
 
 # these are the "firewall" services; you can just stop them
-# if you need open your server to all traffic (i.e. testing/config).
+# if you want to open your server to all traffic (i.e. testing/config).
 rc-service iptables start
 rc-service ip6tables start
 
